@@ -1,0 +1,61 @@
+.Inputdata {
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  position: relative;
+}
+
+label {
+  margin-bottom: 40px;
+}
+
+.Dollardiv {
+  padding-bottom: 30px;
+}
+
+.Inputlabel {
+  color: hsl(186, 14%, 43%);
+  padding-bottom: 20px;
+}
+
+input {
+  position: relative;
+  border: none;
+  border-radius: 5px;
+  width: 95%;
+  height: 40px;
+  top: 20px;
+}
+
+.InputDollar {
+  background-image: url("../images/icon-dollar.svg");
+  background-position: 10px;
+  background-repeat: no-repeat;
+  background-color: hsl(180, 33%, 93%);
+  text-align: right;
+}
+
+.InputPlp {
+  background-image: url("../images/icon-person.svg");
+  background-position: 10px;
+  background-repeat: no-repeat;
+  background-color: hsl(180, 33%, 93%);
+  text-align: right;
+}
+
+.Buttons {
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 400px) {
+  .span {
+    padding-left: 40px;
+  }
+
+  .Buttons {
+    margin-top: 0px;
+  }
+}

@@ -1,0 +1,30 @@
+.Output {
+  margin-top: 30px;
+  margin-left: 30px;
+  margin-right: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.Amount {
+  height: 70px;
+  width: 30%;
+}
+
+p {
+  font-size: larger;
+  font-weight: 700;
+  font-size: 2rem;
+  align-self: flex-start;
+}
+
+.Labels {
+  align-self: flex-end;
+}
+
+@media screen and (max-width: 400px) {
+  .Output {
+    margin-top: 0px;
+  }
+}

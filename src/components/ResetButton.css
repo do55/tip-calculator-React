@@ -1,0 +1,21 @@
+.ResetButton {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 30%;
+}
+
+button {
+  width: 85%;
+  background-color: hsl(172, 67%, 45%);
+}
+
+@media screen and (max-width: 400px) {
+  .ResetButton {
+    top: 5%;
+  }
+
+  button {
+    width: 95%;
+  }
+}

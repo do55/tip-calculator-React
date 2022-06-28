@@ -1,0 +1,13 @@
+.Results {
+  background-color: hsl(183, 100%, 15%);
+  position: relative;
+  border-radius: 20px;
+}
+
+@media screen and (max-width: 400px) {
+  .Results {
+    top: 20px;
+    height: 30vh;
+    bottom: 20px;
+  }
+}
